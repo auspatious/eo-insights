@@ -4,10 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "eo_insights"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Caitlin Adams", email="cadams@frontiersi.com.au" },
-  { name="Madeleine Seehaber", email="mseehaber@frontiersi.com.au" }
+  { name="Madeleine Seehaber", email="mseehaber@frontiersi.com.au" },
+  { name="Alex Leith", email="alex@auspatious.com" }
 ]
 description = "Tools to support analysis of Earth observation data."
 readme = "README.md"
