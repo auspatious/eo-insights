@@ -70,6 +70,7 @@ class RasterBase:
         collections: list[str],
         query_params: QueryParams,
         load_params: LoadParams,
+        load_kwargs: dict = {},
     ):
         """
         Specific factory method for building from stac query
@@ -102,6 +103,7 @@ class RasterBase:
             chunks={},
             groupby="solar_day",
             stac_cfg=config.configuration.get("collections", {}),
+            **load_kwargs,
         )
 
         # Add masking attributes if a mask is present
